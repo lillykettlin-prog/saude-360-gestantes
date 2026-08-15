@@ -1,0 +1,23 @@
+.env
+.env.local
+.env.*
+.DS_Store
+node_modules/
+build/
+dist/
+.vscode/
+.idea/
+*.sqlite
+*.db
+# Supabase local folder for generated files
+supabase/
+# common secret file names
+*.key
+*.pem
+*.secret
+secrets/
+# avoid committing service role keys
+service_role*
+# macOS
+Thumbs.db
+
